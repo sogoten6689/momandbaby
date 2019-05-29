@@ -1,0 +1,68 @@
+<!-- //Blog -->
+<section class="py-md-3 py-sm-3 py-3">
+  <div class="container">
+    <div class="text-center">
+      <div class="" *ngIf="topicsList">
+        <!--Blog-one -->
+        <div class="about-agile-img " *ngFor="let topic of topicsList">
+          <div class="row blog-bloged-about ">
+            <div class="col-lg-7 col-md-7 about-wthree-info">
+              <h4 class="my-3"> {{topic.title}}</h4>
+              <h5> <span>Author: </span>{{topic.author}}</h5>
+              <div class="news-date-list">
+                <ul>
+                  <li><a href="singlepage" class="text-muted">{{topic.created_at}}</a></li><br>
+                  <li><a href="singlepage" class="text-muted">{{topic.views}} views</a></li>
+                  <li><a href="singlepage" class="text-muted">{{topic.likes}} likes</a></li>
+                  <li><a href="singlepage" class="text-muted">{{topic.shares}} shares</a></li>
+                </ul>
+              </div>
+              <h5 class="my-lg-4 mt-md-3 mt-3">{{topic.summary}}</h5>
+              <div class="line-w3ls-title">
+                <!-- Just It is line -->
+              </div>
+              <div class="row blog-img-center">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6 outs_more-buttn">
+                  <a href="singlepage">Read More</a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6 icons mt-lg-3 mt-3 px-0">
+                  <ul>
+                    <li><a href="singlepage"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="singlepage"><span class="fas fa-envelope"></span></a></li>
+                    <li><a href="singlepage"><span class="fab fa-twitter"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+              <!-- There is no contant empty Div for position Img -->
+            </div>
+          </div>
+          <div class="blog-img-top">
+            <!-- Just a image -->
+            <img src="{{topic.img}}"/>
+          </div>
+        </div>
+        <!--//Blog-one -->
+        <!-- pagination-blog-->
+        <div class="pagination-blog">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item active">
+                <a class="page-link " href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- //pagination-blog-->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //Blog -->

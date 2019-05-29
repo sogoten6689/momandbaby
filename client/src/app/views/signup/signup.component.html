@@ -1,0 +1,58 @@
+
+  <div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+      <h4 class="card-title mt-3 text-center">Create Account</h4>
+      <p class="text-center">Get started with your free account</p>
+      <div class="row">
+        <div class="col-sm-6 add-font-size-button">
+          <google-login-button  (socialUser)="getSocialUser($event)"></google-login-button>
+        </div>
+        <div class="col-sm-6 add-font-size-button">
+          <facebook-login-button (socialUser)="getSocialUser($event)"></facebook-login-button>
+        </div>
+      </div>
+      <div (keyup.enter)="doSignUp()">
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-id-card"></i> </span>
+          </div>
+          <input name="" class="form-control" [(ngModel)]="model.account" placeholder="Account for login" type="text">
+        </div> <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+          </div>
+          <input name="" class="form-control" [(ngModel)]="model.email" placeholder="Email address" type="email">
+        </div> <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+          </div>
+          <input name="" class="form-control" [(ngModel)]="model.fullname" placeholder="Full name" type="text">
+        </div> <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+          </div>
+          <input name="" class="form-control" [(ngModel)]="model.phone" placeholder="Phone number" type="text">
+        </div> <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          </div>
+          <input class="form-control" [(ngModel)]="model.password" placeholder="Create password" type="password">
+        </div> <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          </div>
+          <input class="form-control" placeholder="Repeat password" [(ngModel)]="repeatpass" type="password">
+        </div> <!-- form-group// -->
+        <div class="form-group">
+          <button (click)="doSignUp()" class="btn btn-primary btn-block"> Create Account</button>
+        </div> <!-- form-group// -->
+        <p class="text-center">Have an account? <a href="/login">Log In</a> </p>
+      </div>
+    </article>
+  </div> <!-- card.// -->
+

@@ -1,0 +1,721 @@
+[2019-04-22T00:11:00.306] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:20:24.172] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:20:45.074] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:27:02.040] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:36:05.602] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:36:05.611] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:40:45.715] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:40:45.721] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:41:44.353] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:41:44.469] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:42:18.594] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:42:18.598] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:49:07.007] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:49:07.016] [ERROR] default - { SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:149:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' },
+  original:
+   { Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at ClientHandshake.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+     errno: 1251,
+     sqlState: '08004',
+     sqlMessage:
+      'Client does not support authentication protocol requested by server; consider upgrading MySQL client' } }
+[2019-04-22T00:55:45.553] [INFO] server - Express server listening on port 3000
+[2019-04-22T01:10:30.765] [INFO] server - Express server listening on port 3000
+[2019-04-22T01:24:10.298] [INFO] server - Express server listening on port 3000
+[2019-04-22T01:27:03.164] [INFO] server - Express server listening on port 3000
+[2019-04-22T01:27:33.999] [INFO] server - Express server listening on port 3000
+[2019-04-22T02:18:57.686] [INFO] server - Express server listening on port 3000
+[2019-04-22T02:19:41.121] [INFO] server - Express server listening on port 3000

@@ -1,0 +1,56 @@
+[2019-05-23T09:31:52.521] [INFO] server - Express server listening on port 3000
+[2019-05-23T09:37:22.495] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T10:07:06.781] [INFO] server - Express server listening on port 3000
+[2019-05-23T11:22:12.471] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:22:12.828] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:31:57.829] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:31:57.936] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:35:23.065] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:35:23.323] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:37:00.950] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:37:01.018] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:37:03.401] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:43:07.155] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:43:07.251] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:43:09.148] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:44:38.666] [INFO] server - Express server listening on port 3000
+[2019-05-23T11:45:16.254] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:45:16.293] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T11:45:17.810] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T12:14:54.496] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T12:15:14.777] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T12:15:14.809] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T12:15:16.171] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T12:15:16.349] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-23T18:02:46.560] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:51.891] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:53.806] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:54.405] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:55.475] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:55.979] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:56.700] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:57.149] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:58.035] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:02:58.435] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:06:14.797] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-23T18:33:01.095] [INFO] server - Express server listening on port 3000
+[2019-05-23T18:34:00.453] [INFO] server - Express server listening on port 3000
+[2019-05-23T18:35:46.159] [INFO] server - Express server listening on port 3000
+[2019-05-23T18:36:20.257] [INFO] server - Express server listening on port 3000
+[2019-05-23T19:14:22.288] [INFO] server - Express server listening on port 3000
+[2019-05-23T19:37:55.942] [INFO] server - Express server listening on port 3000
+[2019-05-23T19:39:45.739] [INFO] server - Express server listening on port 3000
+[2019-05-23T19:40:22.474] [INFO] server - Express server listening on port 3000
+[2019-05-23T19:40:35.910] [INFO] server - Express server listening on port 3000
+[2019-05-23T22:20:58.494] [INFO] server - Express server listening on port 3000

@@ -1,0 +1,35 @@
+
+<div class="card bg-light">
+  <article class="card-body mx-auto" style="max-width: 400px;">
+    <h4 class="card-title lam mt-3 text-center">Login</h4>
+    <div class="row">
+      <div class="col-sm-6 add-font-size-button">
+        <google-login-button  (socialUser)="getSocialUser($event)"></google-login-button>
+      </div>
+      <div class="col-sm-6 add-font-size-button">
+        <facebook-login-button (socialUser)="getSocialUser($event)"></facebook-login-button>
+      </div>
+    </div>
+    <div (keyup.enter)="doLogin()">
+        <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+        </div>
+        <input name="" class="form-control" placeholder="Account"  [(ngModel)]="model.account">
+      </div> <!-- form-group// -->
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+        </div>
+        <input class="form-control" placeholder="Password" type="password" [(ngModel)]="model.password">
+      </div> <!-- form-group// -->
+      <div class="form-group">
+        <button class="btn btn-primary btn-block" (click)="doLogin()"> Login  </button>
+        <a class="btn btn-primary btn-block" href="/signup"> Register  </a>
+      </div> <!-- form-group// -->
+      <p class="text-center">Forget password <a >Hotline - 0789600766 </a> </p>
+
+    </div>
+  </article>
+</div> <!-- card.// -->
+

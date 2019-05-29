@@ -1,0 +1,23 @@
+
+<section class="our-webcoderskull padding-lg"  >
+  <div class="container">
+    <div class="row heading heading-icon">
+     <div class="col-6">
+       <h2>Thành viên</h2>
+     </div>
+    </div>
+    <ul class="row" *ngIf="userListShow && styleList%2==0">
+      <li class="col-12 col-md-6 col-lg-3"*ngFor="let user of userListShow">
+       <a href="/users/{{user.id}}">
+         <div class="cnt-block equal-hight" style="height: 349px;">
+           <figure><img [src]="user.image_url||'../../../assets/img/user.png'" class="img-responsive" alt=""></figure>
+           <h3>{{user.fullname}}</h3>
+           <ul class="follow-us clearfix">
+             <li><a href="/users/{{user.id}}">Xem chi tiết</a></li>
+           </ul>
+         </div>
+       </a>
+      </li>
+    </ul>
+  </div>
+</section>

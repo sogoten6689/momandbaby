@@ -1,0 +1,21 @@
+[2019-05-12T11:15:35.015] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:16:02.465] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:16:28.200] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:17:14.490] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:17:32.711] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:21:02.128] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:24:22.456] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T11:33:11.476] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-12T12:25:42.818] [INFO] server - Express server listening on port 3000
+[2019-05-12T13:03:41.486] [INFO] server - Express server listening on port 3000
+[2019-05-12T17:39:53.219] [INFO] server - Express server listening on port 3000
+[2019-05-12T17:44:27.267] [ERROR] default - { message: 'The email or account has already existed.',
+  code: 'USER_01' }

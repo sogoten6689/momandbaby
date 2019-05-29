@@ -1,0 +1,97 @@
+[2019-05-19T10:02:03.577] [INFO] server - Express server listening on port 3000
+[2019-05-19T10:07:32.505] [INFO] server - Express server listening on port 3000
+[2019-05-19T10:10:13.871] [ERROR] auth_utils - { JsonWebTokenError: jwt must be provided
+    at module.exports (F:\do_an2019\ShareMomAndBaby\server\node_modules\jsonwebtoken\verify.js:43:17)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:27:5
+    at Promise._execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:79:10)
+    at authorizeRoles (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:17:10)
+    at exports.authorizeAdminMember (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:79:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:281:22
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:317:13) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2019-05-19T10:19:24.215] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-19T10:25:05.467] [ERROR] auth_utils - { JsonWebTokenError: jwt must be provided
+    at module.exports (F:\do_an2019\ShareMomAndBaby\server\node_modules\jsonwebtoken\verify.js:43:17)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:27:5
+    at Promise._execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:79:10)
+    at authorizeRoles (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:17:10)
+    at exports.authorizeAdminMember (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:79:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:281:22
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:317:13) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2019-05-19T10:29:10.796] [ERROR] auth_utils - { JsonWebTokenError: jwt must be provided
+    at module.exports (F:\do_an2019\ShareMomAndBaby\server\node_modules\jsonwebtoken\verify.js:43:17)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:27:5
+    at Promise._execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:79:10)
+    at authorizeRoles (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:17:10)
+    at exports.authorizeAdminMember (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:79:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:281:22
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:317:13) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2019-05-19T10:49:18.606] [INFO] server - Express server listening on port 3000
+[2019-05-19T10:49:39.308] [ERROR] default - { SequelizeEagerLoadingError: User is associated to Comment using an alias. You've included an alias (user), but it does not match the alias defined in your association.
+    at Function._getIncludedAssociation (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\model.js:588:17)
+    at Function._validateIncludedElement (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\model.js:499:53)
+    at options.include.options.include.map.include (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\model.js:395:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\model.js:390:39)
+    at Promise.try.then.then (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\model.js:1570:14)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) name: 'SequelizeEagerLoadingError' }
+[2019-05-19T10:54:19.874] [INFO] server - Express server listening on port 3000
+[2019-05-19T12:11:41.443] [INFO] server - Express server listening on port 3000
+[2019-05-19T12:54:56.451] [ERROR] default - { message: 'Topic does not exist.', code: 'TOPIC_01' }
+[2019-05-19T20:28:33.682] [INFO] server - Express server listening on port 3000

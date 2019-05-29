@@ -1,0 +1,146 @@
+<!-- <div class="container">
+    <div class="Embed row">
+        <div class="col-3">
+            <aside class="sidebar">
+                <section  *ngIf="!currentUser" class="join-chat">
+                  <h2>Join Chat</h2>
+                  <form (ngSubmit)="addUser()">
+                    <input placeholder="Enter your username" type="text" name="username" [(ngModel)]="username" />
+                  </form>
+                </section>
+                <section class="online-members">
+                  <h2>Room Users</h2>
+                  <ul class="user-list">
+                    <li *ngFor="let user of users">
+                      <span class="presence {{ user.presence.state }}"></span>
+                      <span>{{ user.name }}</span>
+                    </li>
+                  </ul>
+                </section>
+              </aside>
+        </div>
+        <div class="col-9">
+            <main class="chat-window">
+                <header class="chat-header">
+                  <h1>Chat</h1>
+                  <span class="participants"></span>
+                </header>
+                <section class="chat-session">
+                  <ul class="message-list">
+                    <li class="user-message" *ngFor="let message of messages">
+                      <span class="user-id">{{ message.senderId }}</span>
+                      <span>{{ message.text }}</span>
+                    </li>
+                  </ul>
+                </section>
+                <footer class="chat-footer">
+                  <form (ngSubmit)='sendMessage()'>
+                    <input placeholder="Type a message. Hit Enter to send" type="text" name="message" [(ngModel)]="message">
+                  </form>
+                </footer>
+              </main>
+        </div>
+      </div>
+</div> -->
+
+
+<section class="py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container-fluid">
+      <div class="text-center ">
+        <h3 class="page-name">Chat box</h3>
+      </div>
+          <div class="Embed row mainchat">
+            <!--ds phong chat-->
+              <div class="col-sm-2 border-primary" style="border: 1px">
+                  <aside class="sidebar ">
+<!--                      <section  *ngIf="!currentUser" class="join-chat">-->
+<!--                        <h3 class="text-dark">Tham gia</h3>-->
+<!--                        <form (ngSubmit)="addUser()">-->
+<!--                          <input placeholder="Nhập tên" type="text" name="username" [(ngModel)]="username" />-->
+<!--                        </form>-->
+<!--                      </section>-->
+                      <section class="online-members">
+                        <h3 class="text-dark">Phòng chat</h3>
+                        <ul class="user-list" *ngIf="listRooms">
+                          <li *ngFor="let room of listRooms">
+<!--                            <span class="presence {{ user.presence.state }}"></span>-->
+                            <button class="btn btn-primary" (click)="chat(room.id, room.name)">{{ room.name }}</button>
+<!--                            <span>{{ room.name }}</span>-->
+                          </li>
+                        </ul>
+                      </section>
+                    </aside>
+                    <aside class="sidebar1 ">
+                      <!--<section  *ngIf="!currentUser" class="join-chat">
+                        <h3 class="text-dark">Tham gia</h3>
+                        <form (ngSubmit)="addUser()">
+                          <input placeholder="Nhập tên" type="text" name="username" [(ngModel)]="username" />
+                        </form>
+                      </section>-->
+                      <section class="online-members">
+                        <h3 class="text-dark">Online</h3>
+                        <ul class="user-list" *ngIf="users">
+                          <li *ngFor="let user of users">
+                            <span class="presence {{ user.presence.state }}"></span>
+                            <span>{{ user.name }}</span>
+                          </li>
+                        </ul>
+                      </section>
+                    </aside>
+              </div>
+            <!--end ds phong chat-->
+            <!--chat-->
+              <div class="col-sm-8 overflow-auto">
+                  <main class="chat-window">
+                      <header class="chat-header">
+                        <h3>Phòng: {{roomName}}</h3>
+                        <span class="participants"></span>
+                      </header>
+                      <section class="chat-session anyClass">
+                        <ul class="message-list">
+                          <li class="user-message" *ngFor="let message of messages">
+                            <span class="user-id">{{ message.senderId }}</span>
+                            <span>{{ message.text }}</span>
+                          </li>
+                        </ul>
+                      </section>
+                      <footer class="chat-footer">
+                        <form (ngSubmit)='sendMessage()' *ngIf="roomId">
+                          <input placeholder="Nhập tin nhắn. Enter để gửi" type="text" name="message" [(ngModel)]="message">
+
+                        </form>
+                      </footer>
+                    </main>
+              </div>
+            <!--end chat-->
+              <!--ds thanh vien-->
+              <div class="col-sm-2 border-primary" style="border: 1px">
+                <aside class="sidebarRight">
+                  <!--<section  *ngIf="!currentUser" class="join-chat">
+                    <h3 class="text-dark">Tham gia</h3>
+                    <form (ngSubmit)="addUser()">
+                      <input placeholder="Nhập tên" type="text" name="username" [(ngModel)]="username" />
+                    </form>
+                  </section>-->
+                  <section class="online-members">
+                    <h3 class="text-dark">Thành viên</h3>
+                    <ul class="user-list" *ngIf="listUsers">
+                      <form (ngSubmit)="chatGroup()">
+                        <li *ngFor="let userChat of listUsers">
+                          <label *ngIf="userChat.id != currentId">
+                            <input type="checkbox" class="" value="userChat.id" (change)="onCheckboxUser($event, userChat.id)" />{{ userChat.name }}
+                          </label>
+                          <!--                        <span class="presence {{ user.presence.state }}"></span>-->
+<!--                          <span>{{ userChat.name }}</span>-->
+                        </li>
+                        <button type="submit" class="btn btn-login align-content-center p-1 bg-white"> Chat </button>
+                      </form>
+
+                    </ul>
+                  </section>
+                </aside>
+              </div>
+            <!--end ds thanh vien-->
+            </div>
+    </div>
+</section>

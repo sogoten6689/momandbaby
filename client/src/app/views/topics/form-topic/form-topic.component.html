@@ -1,0 +1,31 @@
+<div class="text-center pb-4"><h3 class="page-name">{{title}}</h3></div>
+<div class="row">
+  <div class="col-sm-2 pb-2 page-name">Title</div>
+  <div class="col-sm-10 pb-2">
+    <input class="form-control" name="title" [(ngModel)]="topicData.title">
+  </div>
+  <div class="col-sm-2 pb-2 page-name">Type</div>
+  <div class="col-sm-10 pb-2">
+    <select class="type-dropdown form-control" *ngIf="typeList" [(ngModel)]="topicData.type">
+      <option class=" type-menu" *ngFor="let type of typeList" value="{{type.id}}" >
+
+          {{type.name}}
+      </option>
+    </select>
+  </div>
+  <div class="col-sm-2 pb-2 page-name">Summary</div>
+  <div class="col-sm-10 pb-2">
+    <input class="form-control" name="title" [(ngModel)]="topicData.summary">
+  </div>
+  <div class="col-sm-2 pb-2 page-name">Content</div>
+  <div class="col-sm-10 pb-2">
+    <quill-editor [(ngModel)]="topicData.content" (onEditorCreated)="getEditorInstance($event)"></quill-editor>
+    <input type="file" style="display: none" id="fileInputField"/>
+  </div>
+  <div class="col-sm-2 pb-2 page-name">Thumbnail</div>
+  <div class="col-sm-10 pb-2">
+    <input type="file" name="thumbnail" (change)="selectFile($event)" >
+  </div>
+
+  <div class="col-sm-12 text-center pb-2"><button class="btn btn-primary" (click)="submitTopic()">{{buttonText}}</button></div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "name": "Baby Care Tool API",
+  "version": "1.0.0",
+  "description": "",
+  "title": "Baby care tool API document",
+  "url" : "http://localhost:3000",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

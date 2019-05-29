@@ -1,0 +1,1365 @@
+[2019-05-10T16:51:02.599] [INFO] server - Express server listening on port 3000
+[2019-05-10T16:56:58.314] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-10T16:56:59.398] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-10T16:57:00.012] [ERROR] default - { message: 'Username or password is not correct.',
+  code: 'AUTHENTICATE_01' }
+[2019-05-10T17:23:40.958] [INFO] server - Express server listening on port 3000
+[2019-05-10T17:44:45.594] [INFO] server - Express server listening on port 3000
+[2019-05-10T22:25:53.450] [INFO] server - Express server listening on port 3000
+[2019-05-10T22:28:47.230] [INFO] server - Express server listening on port 3000
+[2019-05-10T22:33:21.108] [INFO] server - Express server listening on port 3000
+[2019-05-10T22:34:45.270] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:36:28.220] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:41:17.644] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:41:59.934] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:43:40.658] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:44:00.514] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:45:04.781] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:45:36.795] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:46:46.587] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:47:54.621] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:48:43.092] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:48:50.684] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:49:19.831] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:49:42.071] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:50:47.953] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:51:06.229] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:52:58.157] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:53:08.800] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:53:41.459] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:55:01.754] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:56:07.703] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:56:34.483] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:57:19.820] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:57:42.209] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:58:12.108] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:58:30.498] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T22:59:02.541] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:00:03.522] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:00:24.619] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:04:02.392] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:04:19.775] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:04:35.562] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:05:26.149] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:05:45.451] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:05:52.247] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:06:57.060] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:07:12.671] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:08:31.030] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:08:48.478] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:10:17.301] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-10T23:21:18.066] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }

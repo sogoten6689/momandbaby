@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .App {
+    width: 100%;
+    max-width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    //font-family: cursive;
+    color: #F90CE5 !important;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .sidebar {
+    flex-basis: 30%;
+    //background-color: #ccc;
+    //color: #fff;
+    padding: 5px 10px;
+    //border-right: 1px solid #F90CE5;
+    height:260px;
+    overflow-y: scroll;
+    background-color: #F0F4F8;
+    //overflow-y:hidden;
+  }
+
+.sidebar1 {
+  flex-basis: 30%;
+  padding: 5px 10px;
+ // height:260px;
+  overflow-y: scroll;
+  background-color: #F0F4F8;
+}
+  .sidebarRight {
+    flex-basis: 30%;
+    //background-color: white;
+    //color: #blac;
+    padding: 5px 10px;
+    border: 1px solid #F90CE5;
+    background-color: #F0F4F8;
+    height:520px;
+  }
+  .mainchat{
+   // background-color: #ccc;
+    border: 1px solid #F90CE5;
+  }
+  .sidebar section {
+    margin-bottom: 20px;
+  }
+
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+
+  .user-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .presence {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: slategrey;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .presence.online {
+    background-color: green;
+  }
+
+  .chat-window {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .chat-window > * {
+    padding: 10px 20px;
+  }
+
+  .chat-header, .chat-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .chat-header {
+    border-bottom: 1px solid #F90CE5;
+    background-color: #F0F4F8;
+  }
+
+  .chat-session {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .message-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .user-message {
+    margin-top: 10px;
+  }
+
+  .user-message span {
+    display: block;
+  }
+
+  .user-id {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  .chat-footer {
+    border-top: 1px solid #ccc;
+  }
+
+  .chat-footer form, .chat-footer input {
+    width: 100%;
+  }
+
+  .anyClass {
+    height:400px;
+    overflow-y: scroll;
+    //overflow-y:hidden;
+  }

@@ -1,0 +1,22 @@
+<div class="row" *ngIf="!session || session.token==null">
+  <a class="btn btn-login bg-white col-sm-5 col-xs-5" (click)="login()">Login</a>
+  <a class="btn btn-login bg-white col-sm-5 col-xs-5" href="/signup">SignUp</a>
+</div>
+<div *ngIf="session && session.token!=null">
+  <div class="dropdown">
+    <button type="button" class="btn-profile btn bg-white btn-sm dropdown-toggle" data-toggle="dropdown">
+      <img class="rounded-circle" width="45" height="45" [src]="user.image_url||'../../../assets/img/user.png'">
+    </button>
+    <div class="dropdown-menu user-menu">
+      <a class="dropdown-item" href="/users/{{session.id}}"><i class="post-topic fas fa-user"></i> {{ user.account||"Tài khoản" }}  </a>
+      <a href="/embed" class="dropdown-item" (click)="redirectChat()">
+        <i class="post-topic fas fa-comments"></i> Chat</a>
+      <a href="/topics/new" class="dropdown-item" (click)="redirectPostTopic()">
+        <i class="post-topic far fa-plus-square"></i> Post a topic</a>
+      <a href="/" class="dropdown-item" (click)="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+  </div>
+
+</div>
+
+

@@ -1,0 +1,164 @@
+<script>
+  addEventListener("load", function () {
+    setTimeout(hideURLbar, 0);
+  }, false);
+
+  function hideURLbar() {
+    window.scrollTo(0, 1);
+  }
+</script>
+<div class="header-outs fixed-top" id="header">
+  <div class="headder-nav-icon">
+    <div class="container mt-2">
+      <div class="row align-items-center">
+        <div class="col-4 col-xs-4">
+          <a href="/">
+            <h4 class="page-name">
+              <img src="assets/img/logo.png" style="width: 40px;" class="btn-logo"><span style="top:10px;" class="web-name">MomAndBaby</span></h4>
+          </a>
+        </div>
+        <div class="col-8 col-xl-8">
+          <div class="row justify-content-end pt-2">
+            <div class="col-md-4 icons pr-0">
+              <form (submit)="search()">
+                <input type="text" class="form-control bg-light search-text input-sm" name="search_key" placeholder="enter title to search" [(ngModel)]="search_key">
+                <i class="fas fa-search" (click)="search()"></i>
+              </form>
+            </div>
+            <div class="col-md-3">
+             <app-checklogin></app-checklogin>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!--//navigation section -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="navbar-header mr-auto">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" *ngIf="navItems">
+            <ul class="nav navbar-nav mr-auto">
+              <li class="nav-item" [routerLink]="['/']" [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{exact:true}">
+                <a href="/" class="nav-link">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <span *ngFor="let nav of navItems">
+            <span *ngIf="nav.children.length > 0 ;else other_content">
+              <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                 aria-haspopup="true" aria-expanded="false" href="/types/{{nav.id}}">
+                {{nav.name}}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a *ngFor="let child of nav.children" class="nav-link"  href="/types/{{child.id}}">{{child.name}}</a>
+              </div>
+            </li>
+            </span>
+              <ng-template #other_content>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                    {{nav.name}}
+                  </a>
+                </li>
+              </ng-template>
+          </span>
+
+              <li class="nav-item" [routerLink]="['/about']" [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{exact:true}">
+                <a href="about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item" [routerLink]="['/contact']" [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{exact:true}">
+                <a href="contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content" *ngIf="!isAdmin">
+  <router-outlet></router-outlet>
+</div>
+<div class="content" *ngIf="isAdmin">
+  <app-defaul-admin-layout></app-defaul-admin-layout>
+</div>
+
+
+<footer>
+  <div class="footer-bottom py-lg-4 py-3 text-center">
+    <p>©2019 Đại học Công nghiệp TP.HCM </p>
+    <p> Nguyễn Ngọc Lâm - Nguyễn Thị Thu Thương | Design</p>
+      <a href="https://mom-and-baby-iuh.firebaseapp.com/">MomAndBaby</a>
+    <p>Giảng viên hướng dẫn: Đặng Thị Thu Hà</p>
+  </div>
+</footer>
+<script>
+  // You can also use "$(window).load(function() {"
+  $(function () {
+    // Slideshow 4
+    $("#slider4").responsiveSlides({
+      auto: true,
+      pager: true,
+      nav: false,
+      speed: 900,
+      namespace: "callbacks",
+      before: function () {
+        $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+        $('.events').append("<li>after event fired.</li>");
+      }
+    });
+
+  });
+</script>
+
+<script>
+  $("#flexiselDemo3").flexisel({
+    visibleItems: 4,
+    itemsToScroll: 1,
+    autoPlay: {
+      enable: true,
+      interval: 2000,
+      pauseOnHover: true
+    }
+  });
+</script>
+
+<script>
+  jQuery(document).ready(function ($) {
+    $(".scroll").click(function (event) {
+      event.preventDefault();
+      $('html,body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 900);
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+
+    var defaults = {
+      containerID: 'toTop', // fading element id
+      containerHoverID: 'toTopHover', // fading element hover id
+      scrollSpeed: 1100,
+      easingType: 'linear'
+    };
+
+
+    $().UItoTop({
+      easingType: 'easeOutQuart'
+    });
+
+  });
+</script>

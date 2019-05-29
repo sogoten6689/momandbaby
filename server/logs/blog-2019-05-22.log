@@ -1,0 +1,150 @@
+[2019-05-22T13:39:02.930] [INFO] server - Express server listening on port 3000
+[2019-05-22T13:39:27.259] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T13:40:21.008] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T13:45:24.212] [INFO] server - Express server listening on port 3000
+[2019-05-22T13:51:16.180] [INFO] server - Express server listening on port 3000
+[2019-05-22T13:51:34.889] [INFO] server - Express server listening on port 3000
+[2019-05-22T13:52:27.105] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T14:32:04.626] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:32:43.112] [ERROR] default - ReferenceError: resultData is not defined
+    at models.User.findOne.then.user (F:\do_an2019\ShareMomAndBaby\server\services\user_services.js:269:49)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2019-05-22T14:33:12.106] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:34:27.109] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:34:41.499] [ERROR] default - { SequelizeDatabaseError: Unknown column 'data' in 'field list'
+    at Query.formatError (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+    at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+    at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Unknown column 'data' in 'field list'
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     sqlMessage: 'Unknown column \'data\' in \'field list\'',
+     sql:
+      'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' },
+  original:
+   { Error: Unknown column 'data' in 'field list'
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     sqlMessage: 'Unknown column \'data\' in \'field list\'',
+     sql:
+      'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' },
+  sql:
+   'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' }
+[2019-05-22T14:37:46.488] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:37:48.611] [ERROR] default - { SequelizeDatabaseError: Unknown column 'data' in 'field list'
+    at Query.formatError (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+    at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+    at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Unknown column 'data' in 'field list'
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     sqlMessage: 'Unknown column \'data\' in \'field list\'',
+     sql:
+      'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' },
+  original:
+   { Error: Unknown column 'data' in 'field list'
+       at Packet.asError (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packets\packet.js:684:17)
+       at Query.execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:455:32)
+       at PacketParser.onPacket (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:73:18)
+       at PacketParser.executeStart (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.<anonymous> (F:\do_an2019\ShareMomAndBaby\server\node_modules\mysql2\lib\connection.js:80:31)
+       at Socket.emit (events.js:182:13)
+       at addChunk (_stream_readable.js:283:12)
+       at readableAddChunk (_stream_readable.js:264:11)
+       at Socket.Readable.push (_stream_readable.js:219:10)
+       at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     sqlMessage: 'Unknown column \'data\' in \'field list\'',
+     sql:
+      'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' },
+  sql:
+   'SELECT `id`, `account`, `fullname`, `address`, `phone`, `role_id`, `email`, `facebook_account`, `twitter_account`, `image_url`, `data` FROM `users` AS `User` WHERE `User`.`facebook_account` = \'100003227943300\' LIMIT 1;' }
+[2019-05-22T14:39:21.039] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:40:14.201] [INFO] server - Express server listening on port 3000
+[2019-05-22T14:56:48.221] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T14:59:35.645] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:00:54.476] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:28:26.186] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:30:54.384] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:33:16.100] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:35:37.200] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T15:40:14.725] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T16:52:05.398] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T17:00:42.205] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T17:07:55.336] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T17:07:55.406] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T17:11:06.239] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T17:11:25.996] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-22T18:56:39.057] [INFO] server - Express server listening on port 3000

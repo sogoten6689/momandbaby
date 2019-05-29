@@ -1,0 +1,53 @@
+
+<div>
+  <div *ngIf="isOpen==true" class="admin-open" >
+    <div class="sidebar-header m-3">
+      <div class="text-left item-admin"><a (click)="isOpen=!isOpen;"><i class="fa fa-fw fa-bars"></i>Chức năng quản trị</a></div>
+      <div class="text-center item-admin">
+        <a href="/users/{{user.id}}">
+          <img [src]="user.image_url||'../../../../assets/img/user.png'" style="width: 50px;" class="m-3">
+          <div class="m-1"><i class="far fa-address-card"></i>{{user.fullname||'Admin'}}</div>
+        </a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/users">
+          <i class="fas fa-users"></i>
+          Quản lý thành viên
+        </a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/admin/approved">
+          <i class="fa fa-check"></i>
+          Phê duyệt bài viết
+        </a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/statistical">
+          <i class="fa fa-bar-chart-o"></i>
+          Thông kê
+        </a>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="isOpen==false" class="admin-close" >
+    <div class="sidebar-header m-3">
+      <div class="text-left item-admin"><a (click)="isOpen=!isOpen" ><i class="fa fa-fw fa-bars"></i></a></div>
+
+      <div class="text-left item-admin">
+        <a href="/#"><i class="far fa-address-card"></i></a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/#"><i class="fas fa-users"></i></a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/#"><i class="fa fa-fw fa-bars"></i></a>
+      </div>
+      <div class="text-left item-admin">
+        <a href="/#"><i class="fa fa-bar-chart-o"></i></a>
+      </div>
+    </div>
+  </div>
+  <div [ngClass]="isOpen==true ? 'content-admin-open':'content-admin-close'">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,254 @@
+
+<!-- //banner -->
+<app-banner></app-banner>
+
+<!-- //Blog -->
+<section class="py-md-3 py-sm-3 py-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 latest-topics" *ngIf="lastestTopic">
+        <!--Blog-one -->
+        <div class="about-agile-img " *ngFor="let topic of lastestTopic">
+          <a href="/topic/{{topic.id}}">
+          <div class="row blog-bloged-about ">
+            <div class="col-lg-7 col-md-7 about-wthree-info">
+              <h4 class="my-3 topic-title"> {{topic.title}}</h4>
+              <h5> <span>Author: </span>{{topic.author}}</h5>
+              <div class="news-date-list">
+                <ul>
+                  <li><a href="singlepage" class="text-muted">{{topic.created_at}}</a></li><br>
+                  <li><a href="singlepage" class="text-muted">{{topic.views}} views</a></li>
+                  <li><a href="singlepage" class="text-muted">{{topic.likes}} likes</a></li>
+                  <li><a href="singlepage" class="text-muted">{{topic.shares}} shares</a></li>
+                </ul>
+              </div>
+              <h5 class="my-lg-4 mt-md-3 mt-3">{{topic.summary}}</h5>
+              <div class="line-w3ls-title">
+                <!-- Just It is line -->
+              </div>
+              <div class="row blog-img-center">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6 outs_more-buttn">
+                  <a href="/topic/{{topic.id}}">Read More</a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6 icons mt-lg-3 mt-3 px-0">
+                  <ul>
+                    <li><a><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a ><span class="fas fa-envelope"></span></a></li>
+                    <li><a><span class="fab fa-twitter"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+              <!-- There is no contant empty Div for position Img -->
+            </div>
+          </div>
+          <div class="blog-img-top">
+            <!-- Just a image -->
+            <img src="{{topic.img}}"/>
+          </div>
+          </a>
+        </div>
+        <!--//Blog-one -->
+        <!-- pagination-blog-->
+        <div class="pagination-blog">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item active">
+                <a class="page-link " href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- //pagination-blog-->
+      </div>
+      <div class="col-lg-4">
+        <!--About-->
+        <div class="address_mail_footer_grids">
+          <div class="title text-center mb-lg-4 mb-md-3 mb-3">
+            <h3>About Us</h3>
+          </div>
+          <div class="wthree-about-us-info text-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          </div>
+          <div class="my-3 icons-social text-center">
+            <h4> Follow Us</h4>
+          </div>
+          <div class="icons text-center">
+            <ul>
+              <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+              <li><a href="#"><span class="fas fa-rss"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+            </ul>
+          </div>
+          <div class="blog-abut-img mt-3">
+            <img src="https://s3-us-west-2.amazonaws.com/babyandmom/50436415_1115597335287812_5786504090942963712_o.jpg" class="img-us" alt="">
+          </div>
+        </div>
+        <!--//About-->
+        <!--Top view-->
+        <div class="mt-lg-4 mt-3 address_mail_footer_grids">
+          <div class="title text-center mb-lg-4 mb-md-3 mb-3">
+            <h3>Top views</h3>
+          </div>
+          <div class="dance-agile-info" *ngIf="topViewsTopics">
+            <div class="footer-grid row mb-3" *ngFor="let topic of topViewsTopics">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-5 text-right">
+                <img src="{{topic.img}}" alt=" " class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-6 col-sm-6 col-7 bottom-para px-0">
+                <h6><a href="/topic/{{topic.id}}" >{{topic.title}}</a></h6>
+                <div class="news-date-list pt-2">
+                  <ul>
+                    <li><a href="/topic/{{topic.id}}" class="clr-two">{{topic.created_at |date: 'dd/MM/yyyy'}}</a></li>
+                    <li><a href="/topic/{{topic.id}}" class="clr-two">{{topic.views}} views</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//Top view-->
+        <!--Top likes-->
+        <div class="mt-lg-4 mt-3 address_mail_footer_grids">
+          <div class="title text-center mb-lg-4 mb-md-3 mb-3">
+            <h3>Top likes</h3>
+          </div>
+          <div class="dance-agile-info" *ngIf="topLikesTopics">
+            <div class="footer-grid row mb-3" *ngFor="let topic of topLikesTopics">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-5 text-right">
+                <img src="{{topic.img}}" alt=" " class="img-fluid">
+              </div>
+              <div class="col-lg-8 col-md-6 col-sm-6 col-7 bottom-para px-0">
+                <h6><a href="/topic/{{topic.id}}" >{{topic.title}}</a></h6>
+                <div class="news-date-list pt-2">
+                  <ul>
+                    <li><a href="/topic/{{topic.id}}" class="clr-two">{{topic.created_at |date: 'dd/MM/yyyy'}}</a></li>
+                    <li><a href="/topic/{{topic.id}}" class="clr-two">{{topic.likes}} likes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//Top likes-->
+        <!--Contact Us-->
+        <div class="mt-lg-4 mt-3 address_mail_footer_grids">
+          <div class="title text-center mb-lg-4 mb-md-3 mb-3">
+            <h3>Contact Us</h3>
+          </div>
+          <div class="contact-blog-us">
+            <form action="#" method="post">
+              <div class=" contact-wls-detail">
+                <div class="agile-wls-contact-mid">
+                  <div class="form-group contact-forms">
+                    <input type="text" class="form-control" placeholder="Name" required="">
+                  </div>
+                  <div class="form-group contact-forms">
+                    <input type="email" class="form-control" placeholder="Enter" required="">
+                  </div>
+                </div>
+                <div class="countact-text">
+                  <div class="form-group contact-forms">
+                    <textarea class="form-control" rows="3" required=""></textarea>
+                  </div>
+                  <button type="submit" class="btn sent-butnn">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--//Contact Us-->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //Blog -->
+<!--Gallery-->
+<!--<section class="py-lg-5 py-md-4 py-sm-3 py-3">-->
+  <!--<div class="container-fluid">-->
+    <!--<div class="hover12">-->
+      <!--<ul id="flexiselDemo3">-->
+        <!--<li>-->
+          <!--<div class=" snap-img">-->
+            <!--<div class=" agileits_w3layouts_gallery_grid1 hover08">-->
+              <!--<div class="w3_agile_gallery_effect">-->
+                <!--<a href="assets/images/g3.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">-->
+                  <!--<figure>    <img src="assets/images/g3.jpg" alt=" " class="img-fluid"> </figure>-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<div class="snap-img">-->
+            <!--<div class=" agileits_w3layouts_gallery_grid1 hover08">-->
+              <!--<div class="w3_agile_gallery_effect">-->
+                <!--<a href="assets/images/g1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">-->
+                  <!--<figure>    <img src="assets/images/g1.jpg" alt=" " class="img-fluid"> </figure>-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<div class=" snap-img">-->
+            <!--<div class="agileits_w3layouts_gallery_grid1 hover08">-->
+              <!--<div class="w3_agile_gallery_effect">-->
+                <!--<a href="assets/images/g4.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">-->
+                  <!--<figure>    <img src="assets/images/g4.jpg" alt=" " class="img-fluid"> </figure>-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<div class="snap-img">-->
+            <!--<div class="agileits_w3layouts_gallery_grid1 hover08">-->
+              <!--<div class="w3_agile_gallery_effect">-->
+                <!--<a href="assets/images/g2.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">-->
+                  <!--<figure>    <img src="assets/images/g2.jpg" alt=" " class="img-fluid"> </figure>-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="clearfix"></div>-->
+<!--</section>-->
+<!--//Gallery-->
+<!--Footer -->
+<!--<section class="buttom-footer py-lg-5 py-md-4 py-sm-3 py-3">-->
+  <!--<div class="headder-logo-icon text-center">-->
+    <!--<span class="fab fa-accusoft"></span>-->
+    <!--<h2><a href="index">Inside-Art</a></h2>-->
+  <!--</div>-->
+  <!--<div class="buttom-nav py-3">-->
+    <!--<nav class="border-line">-->
+      <!--<ul class="nav justify-content-center">-->
+        <!--<li class="nav-item active">-->
+          <!--<a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>-->
+        <!--</li>-->
+        <!--<li class="nav-item">-->
+          <!--<a href="about" class="nav-link ">About</a>-->
+        <!--</li>-->
+        <!--<li class="nav-item">-->
+          <!--<a href="service" class="nav-link">Services</a>-->
+        <!--</li>-->
+        <!--<li class="nav-item">-->
+          <!--<a href="contact" class="nav-link">Contact</a>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</nav>-->
+  <!--</div>-->
+<!--</section>-->

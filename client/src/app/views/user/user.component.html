@@ -1,0 +1,186 @@
+<div class="container emp-profile" *ngIf="userShow">
+  <form method="post" (keyup.enter)="doUpdateUser()">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="profile-img">
+          <img src="{{image_user_old||'../../../assets/img/user.png'}}" style="height: auto;" alt=""/>
+          <input type="button" class=" file btn-lg btn btn-primary" *ngIf="user.id==id || user.role.name=='Admin'" data-toggle="modal" data-target="#myModal" value="Thay đổi ảnh đại diện"/>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="profile-head">
+          <h5>
+            {{namefull}}
+          </h5>
+          <h6>
+            <button class="btn btn-danger" *ngIf="userShow.role_id==1">Quản trị viên</button>
+            <button class="btn btn-primary" *ngIf="userShow.role_id==2">Thành viên</button>
+
+            <button class="btn btn-warning" (click)="activeDown()" *ngIf="userShow.active==1&&user.role.name=='Admin'">Khóa tài khoản</button>
+            <button class="btn btn-success" (click)="activeUp()" *ngIf="userShow.active==0&&user.role.name=='Admin'">Mở khóa tài khoản</button>
+          </h6>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Thông tin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Kết nối</a>
+            </li>
+            <li class="nav-item" *ngIf="user.id==id || user.role.name=='Admin'">
+              <a class="nav-link" id="password-tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Đổi mật khẩu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2" *ngIf="user.id==id || user.role.name=='Admin'">
+        <input type="submit" class="profile-edit-btn btn-warning" (click)="changeEdit()" *ngIf="isEdit" name="btnAddMore" value="Cập nhật"/>
+        <input type="submit" class="profile-edit-btn btn-warning" (click)="changeEdit()" *ngIf="!isEdit" name="btnAddMore" value="Hủy cập nhật"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="profile-work">
+          <p>Thân ái!</p>
+          <a href="">Cảm ơn bạn đã đồng hành cùng chúng tôi!</a><br/>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content profile-tab" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Tài khoản</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{userShow.account}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Họ tên</label>
+              </div>
+              <div class="col-md-6">
+                <p *ngIf="isEdit" >{{userShow.fullname}}</p>
+                <input *ngIf="!isEdit" [(ngModel)]="userShow.fullname" name="fullname" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Email</label>
+              </div>
+              <div class="col-md-6">
+                <p>{{userShow.email|| "Chờ cập nhật..."}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Số điện thoại</label>
+              </div>
+              <div class="col-md-6">
+                <p *ngIf="isEdit" >{{userShow.phone || "Chờ cập nhật..."}}</p>
+                <input *ngIf="!isEdit" [(ngModel)]="userShow.phone" name="phone" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Địa chỉ</label>
+              </div>
+              <div class="col-md-6">
+                <p *ngIf="isEdit" >{{userShow.address || "Chờ cập nhật..."}}</p>
+                <input *ngIf="!isEdit" [(ngModel)]="userShow.address" name="address" />
+              </div>
+            </div>
+            <hr/>
+            <div class="row text-center">
+              <div class="col-md-12 text-center" *ngIf="user.id==id&&!isEdit || user.role.name=='Admin'">
+                <input (click)="doUpdateUser()" class="btn btn-primary" value="Lưu"/>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Liên kết Faceboook</label>
+              </div>
+              <div class="col-md-6">
+                <a class="btn btn-primary" href="#"><i class="fab fa-facebook-f mr-2"></i> Facebook</a>
+              </div>
+            </div>
+            <hr/>
+            <div class="row"></div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Liên kết Twitter</label>
+              </div>
+              <div class="col-md-6">
+                <a class="btn btn-primary" href="#"><i class="fab fa-twitter mr-2"></i>Twitter</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab" *ngIf="user.id==id || user.role.name=='Admin'">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Mật khẩu cũ</label>
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control" placeholder="Nhập mật khẩu cũ" [(ngModel)]="password2.passold" name="passold">
+              </div>
+            </div>
+            <hr/>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Mật khẩu mới</label>
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control" placeholder="Nhập mật khẩu mới" [(ngModel)]="password2.passnew" name="passnew">
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Nhập lại mật khẩu mới</label>
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control" placeholder="Nhập lại mật khẩu mới" [(ngModel)]="passnewagain" name="passnewagain">
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-md-12 text-center" *ngIf="user.id==id || user.role.name=='Admin'">
+                <input (click)="changePass()" class="btn btn-primary" value="Lưu"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal" id="myModal" *ngIf="user.id==id || user.role.name=='Admin'" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Thay đổi ảnh đại diện</h4>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+        <div class="profile-img">
+          <img  [src]="imageSrc||'../../../assets/img/user.png'" />
+        </div>
+        <div class="m-3">
+          <input type="file" name="user_img" (change)="selectFile($event)" (click)="selectFile($event)"/>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" [disabled]="!isUpfile" data-dismiss="modal"(click)="doUpFile()">Cập nhật</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+      </div>
+
+    </div>
+  </div>
+</div>

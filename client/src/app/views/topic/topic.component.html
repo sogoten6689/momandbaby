@@ -1,0 +1,57 @@
+<div class="container" *ngIf="topic">
+  <div class="row">
+    <div class="col-12">
+      <img class="img-topic" src="{{topic.img}}">
+    </div>
+    <div class="col-12 title text-center"><h1>{{topic.title}}</h1></div>
+    <div class="col-6">
+      <a href="/#" class="user">
+        <img src="../../../assets/img/user.png" class="imt-user-topic"> {{topic.User}}
+        <div class="">Ngày tạo: {{topic.created_at |date: 'dd/MM/yyyy'}}</div>
+      </a>
+    </div>
+    <div class="col-6" style="text-align: right" >
+      <a  class="mt-4 mr-5" style="color:#F90CE5;font-size: 1.2em;"><i class="fas fa-thumbs-up" (click)="likeTopic()">{{topic.likes}}</i></a>
+      <a  class="mt-4 mr-5" style="color:#F90CE5;font-size: 1.2em;"><i class="fas fa-thumbs-down" (click)="dislikeTopic()">{{topic.dislikes}}</i></a>
+      <a href="/#" class="mt-4 mr-5" style="color:#F90CE5;font-size: 1.2em;"><i class="fas fa-eye">{{topic.views}}</i></a>
+      <a class="mt-4" (click)="shareNomal();" style="color:#007bff;font-size: 1.2em; padding-right: 15px"><i class="fas fa-share"></i> Chia sẻ</a>
+      <facebook-share-button [share]="shareObj" ></facebook-share-button>
+    </div>
+    <div class="col-12" [innerHTML]="topic.content"></div>
+   </div>
+  <hr/>
+  <div class="row">
+    <div class="col-12">
+      <p class="ykien">Ý kiến bạn đọc</p>
+    </div>
+  </div>
+<!--   get comment by id topic-->
+  <div *ngIf="listComment">
+    <div class="row m-1"  *ngFor="let comment of listComment">
+
+      <div class="col-3 label-comment">
+        <a class="btn btn-info"href="/users/{{comment.user.id}}">{{comment.user.fullname}}</a>
+      </div>
+      <div class="col-7 text-comment">
+        <p>{{comment.content}}</p>
+      </div>
+      <hr/>
+    </div>
+  </div>
+
+<!--   do comment-->
+  <div class="row" *ngIf="commentAdd&&isComment==1">
+    <div class="form-group col-12">
+      <label>Ý kiến của tôi:</label>
+      <textarea class="form-control" rows="5" name="content" [(ngModel)]="commentAdd.content"></textarea>
+    </div>
+    <div class="col-12 text-center m-1">
+      <a class="btn btn-primary" (click)="commentTopic()">Gửi</a>
+    </div>
+  </div>
+  <div class="row" *ngIf="isComment==0">
+    <div class="col-12 text-center m-3">
+      <a class="btn btn-primary" href="/login">Đăng nhập để bình luận</a>
+    </div>
+  </div>
+</div>

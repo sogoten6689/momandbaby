@@ -1,0 +1,130 @@
+[2019-05-21T09:45:33.632] [INFO] server - Express server listening on port 3000
+[2019-05-21T09:48:06.408] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-21T09:48:06.461] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-21T09:48:06.463] [ERROR] default - { SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Utils.Promise.tap.then.catch.err (F:\do_an2019\ShareMomAndBaby\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:139:19)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:690:18)
+    at _drainQueueStep (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+  name: 'SequelizeConnectionRefusedError',
+  parent:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  original:
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true } }
+[2019-05-21T09:50:59.036] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T09:57:15.835] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T10:02:30.546] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T10:02:42.089] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T10:03:11.661] [ERROR] auth_utils - { JsonWebTokenError: jwt malformed
+    at module.exports (F:\do_an2019\ShareMomAndBaby\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at tryCatcher (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:27:5
+    at Promise._execute (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (F:\do_an2019\ShareMomAndBaby\server\node_modules\bluebird\js\release\promise.js:79:10)
+    at authorizeRoles (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:17:10)
+    at exports.authorizeAdminMember (F:\do_an2019\ShareMomAndBaby\server\config\auth_utils.js:79:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:281:22
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\do_an2019\ShareMomAndBaby\server\node_modules\express\lib\router\index.js:317:13) name: 'JsonWebTokenError', message: 'jwt malformed' }
+[2019-05-21T10:04:38.686] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T10:04:54.865] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-21T13:41:55.189] [INFO] server - Express server listening on port 3000

@@ -1,0 +1,55 @@
+[2019-05-20T00:21:30.599] [INFO] server - Express server listening on port 3000
+[2019-05-20T00:25:41.135] [ERROR] default - { message: 'Topic does not exist.', code: 'TOPIC_01' }
+[2019-05-20T00:43:41.536] [INFO] server - Express server listening on port 3000
+[2019-05-20T01:23:28.052] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T01:30:43.885] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T01:44:08.201] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T01:46:32.561] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T01:49:40.930] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T01:51:52.985] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:01:51.863] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:01:51.873] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:03:37.760] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:03:37.805] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:05:07.703] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:05:07.738] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:06:18.582] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:06:18.592] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:11:07.490] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:11:07.523] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:16:06.302] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:16:06.316] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:18:11.925] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:18:11.938] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:20:47.825] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T02:20:47.838] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:12:13.025] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:15:20.022] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:15:33.289] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:21:44.492] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:22:10.383] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:24:23.554] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:26:39.985] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:26:54.564] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:28:00.784] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:30:45.298] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:30:59.821] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:37:59.530] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:38:36.299] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:44:03.484] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:54:12.551] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T03:57:59.982] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T04:04:26.474] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T04:04:55.873] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T04:06:44.567] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T05:01:38.056] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T05:16:12.628] [INFO] server - Express server listening on port 3000
+[2019-05-20T08:17:06.414] [INFO] server - Express server listening on port 3000
+[2019-05-20T08:17:50.494] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T08:33:23.734] [ERROR] auth_utils - { message: 'You are not authorized to access.',
+  code: 'AUTHORIZE_01' }
+[2019-05-20T08:42:12.193] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T08:42:35.496] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T08:45:08.344] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T08:45:15.729] [ERROR] default - { message: 'The user does not exist.', code: 'USER_02' }
+[2019-05-20T13:28:15.957] [INFO] server - Express server listening on port 3000
